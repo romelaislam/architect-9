@@ -2,4 +2,59 @@
 
 body{
     font-family: 'Merriweather', serif;
+    margin: 0;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 228px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 20px ;
+}
+li > a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+/* banner-section */
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-container{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-description{
+    font-size: 12px;
+    color: var(--Dark-03, #727272);
+}
+.primary-btn{
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: aliceblue;
+    padding: 18px 20px;
+    font-weight: 600;
+}
+.banner-img{
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    
 }
