@@ -93,6 +93,11 @@ li > a{
     width: 500px;
     margin-top: 5px;
 }
+.common-text{
+    color: var(--Dark-03, #727272);
+    font-size: 10px;
+    font-weight: 400;
+}
 
 .Quick-img{
     margin-top: 30px;
@@ -163,11 +168,41 @@ li > a{
     text-align: center;
     padding: 0 260px;
     margin-bottom: 20px;
-    gap:30px
+    gap:90px
 }
 .icon{
     width: 100px;
+}
+.Features-section{
+    display: flex;
+    margin-top: 100px;
+    gap: 80px;
+    margin-left: 150px;
+    margin-right: 100px;
+
+}
+.Features-section-content{
+    width: 50%;
     
+}
+.Features-section-h2{
+    color: var(--Dark-01, #131313);
+    font-size: 20px;
+    font-weight: 600;
+}
+.Features-section-card{
+       padding: 30px 60px;
+       border-radius: 8px;
+       background: #FFF;
+       box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+       margin: 30px 0;    
+}
+.Features-border{
+    padding-left: 12px;
+    width: 5px;
+    height: 106px;
+    border-left:5px solid rgba(255, 144, 14, 1) ;
+
 }
 
 @media screen and (max-width:576px) {
@@ -235,6 +270,7 @@ li > a{
         margin-left: 80px;
 
     }
+    
     
     
 }
