@@ -101,6 +101,10 @@ li > a{
     gap: 15px;
 
 }
+.common-title{
+    font-size: 30px;
+    font-weight: 700;
+}
 .img-1{
     width: 200px;
     height: 210px;
@@ -108,11 +112,11 @@ li > a{
 .Quick-banner{
     display: flex;
 }
-.Some-Facts-contant{
+.Some-Facts-content{
     margin-left: 250px;
     margin-top: 70px;
 }
-.button-contant{
+.button-content{
     padding: 35px;
     text-align: center;
     width: 150px;
@@ -143,7 +147,27 @@ li > a{
     font-size: 10px;
     font-weight: 600;
     margin: 2px 0;
-   
+}
+.Our-Sponspors-content{
+    padding: 50px 500px;
+    text-align: center;
+}
+.Sponspors-description{
+    color: var(--Dark-03, #727272);
+    font-size: 13px;
+    font-weight: 400;
+}
+.spotify-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 260px;
+    margin-bottom: 20px;
+    gap:30px
+}
+.icon{
+    width: 100px;
+    
 }
 
 @media screen and (max-width:576px) {
@@ -168,9 +192,10 @@ li > a{
         font-size: 20px;
         text-align: center;
     }
-    .Quick-description , .nav-title{
-        width: 320px;
+    .Quick-description{
+        width: 250px;
         margin:0 auto ;
+        margin-right: 0 10px;
     }
     .Quick-btn{
         margin-right: 90px;
@@ -179,7 +204,7 @@ li > a{
         margin-left: 190px;
     }
     .Some-Facts-contant{
-        margin-left: 40px;
+        margin-left: 0;
     }
     .button-container{
        
@@ -195,4 +220,21 @@ li > a{
     body{
         margin: 0;
     }
+    .spotify-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .Our-Sponspors-content{
+        padding: 0px;
+        width: 247px;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+    
+    
 }
